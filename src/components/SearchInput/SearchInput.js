@@ -20,6 +20,7 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
+  display: flex;
   border: none;
   background: transparent;
   border-bottom: 1px solid ${COLORS.gray[300]};
